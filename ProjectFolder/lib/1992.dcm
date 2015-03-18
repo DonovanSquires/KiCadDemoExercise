@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1992
+D GPIO Header for RaspberryPi A+/B+/Pi 2 - Tall 2x20 Female Header - Adafruit
+F doc/1992_datasheet2.pdf
+$ENDCMP
+#
+#End Doc Library

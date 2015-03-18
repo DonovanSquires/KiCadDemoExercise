@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ULN2003ADR
+D SN74HC540DWR IC INVERTER 8-INPUT 20SOIC
+F doc/sn74hc540.pdf
+$ENDCMP
+#
+#End Doc Library

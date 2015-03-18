@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 3/17/2015 10:01:51 PM
+
+BeginCmp
+TimeStamp = /550BABE4;
+Reference = C1;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /550B8F41;
+Reference = C2;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_SMD:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5509C10B;
+Reference = C3;
+ValeurCmp = 10u;
+IdModule  = Capacitors_SMD:C_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /550975C4;
+Reference = C4;
+ValeurCmp = 100u;
+IdModule  = Capacitors_SMD:C_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507FFCC/550B7F0C;
+Reference = C5;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507FFCC/550B7E5F;
+Reference = C6;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507FFCC/55086C74;
+Reference = C7;
+ValeurCmp = 0.1u;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55078E3E;
+Reference = J1;
+ValeurCmp = 1992;
+IdModule  = 1992:1992;
+EndCmp
+
+BeginCmp
+TimeStamp = /55078EDE;
+Reference = J2;
+ValeurCmp = TSW-103-07-T-S;
+IdModule  = tsw-103-07-t-s:tsw-103-07-t-s;
+EndCmp
+
+BeginCmp
+TimeStamp = /550C2E47;
+Reference = J3;
+ValeurCmp = TSW-103-07-T-S;
+IdModule  = tsw-103-07-t-s:tsw-103-07-t-s;
+EndCmp
+
+BeginCmp
+TimeStamp = /550C2E90;
+Reference = J4;
+ValeurCmp = TSW-103-07-T-S;
+IdModule  = tsw-103-07-t-s:tsw-103-07-t-s;
+EndCmp
+
+BeginCmp
+TimeStamp = /550C2EDC;
+Reference = J5;
+ValeurCmp = TSW-103-07-T-S;
+IdModule  = tsw-103-07-t-s:tsw-103-07-t-s;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507FFCC/55086FB8;
+Reference = R1;
+ValeurCmp = 330;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507FFCC/550B7622;
+Reference = R2;
+ValeurCmp = 330;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507FFCC/550B765D;
+Reference = R3;
+ValeurCmp = 330;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507FFCC/550AC020;
+Reference = U1;
+ValeurCmp = SN74LVC1G139DCTR;
+IdModule  = sn74lvc1g139dctr:sn74lvc1g139dctr;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507FFCC/550B6026;
+Reference = U2;
+ValeurCmp = SN74LVC1G139DCTR;
+IdModule  = sn74lvc1g139dctr:sn74lvc1g139dctr;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507FFCC/550B6087;
+Reference = U3;
+ValeurCmp = SN74LVC1G139DCTR;
+IdModule  = sn74lvc1g139dctr:sn74lvc1g139dctr;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507FFCC/550AB153;
+Reference = U4;
+ValeurCmp = ULN2003ADR;
+IdModule  = uln2003adr:ULN2003ADR;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507FFCC/550B4602;
+Reference = U5;
+ValeurCmp = ULN2003ADR;
+IdModule  = uln2003adr:ULN2003ADR;
+EndCmp
+
+BeginCmp
+TimeStamp = /5507FFCC/550B636C;
+Reference = U6;
+ValeurCmp = SN74LVC1G139DCTR;
+IdModule  = sn74lvc1g139dctr:sn74lvc1g139dctr;
+EndCmp
+
+EndListe

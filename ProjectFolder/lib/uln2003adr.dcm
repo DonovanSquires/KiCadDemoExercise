@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ULN2003ADR
+D TRANS 7NPN DARL 50V 0.5A 16SO
+F doc/uln2003a.pdf
+$ENDCMP
+#
+#End Doc Library
