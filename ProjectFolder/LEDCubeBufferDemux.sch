@@ -49,9 +49,9 @@ Comment2 "License: CC-BY 4.0"
 Comment3 "System Designer: Alan Irwin"
 Comment4 "PCB Designer: Donovan Squires"
 $EndDescr
-Text HLabel 2250 1900 0    60   Input ~ 0
-Slice1EN
 Text HLabel 2250 3100 0    60   Input ~ 0
+Slice1EN
+Text HLabel 2250 1900 0    60   Input ~ 0
 Slice2EN
 Text HLabel 2250 4400 0    60   Input ~ 0
 Slice3EN
@@ -63,17 +63,17 @@ Text HLabel 7700 3800 0    60   Input ~ 0
 AnodeA
 Text HLabel 7700 3900 0    60   Input ~ 0
 AnodeB
-Text HLabel 5950 2500 2    60   Output ~ 0
-Slice1Cathode3
-Text HLabel 5950 2400 2    60   Output ~ 0
-Slice1Cathode2
-Text HLabel 5950 2300 2    60   Output ~ 0
-Slice1Cathode1
-Text HLabel 5950 2900 2    60   Output ~ 0
-Slice2Cathode3
 Text HLabel 5950 2800 2    60   Output ~ 0
-Slice2Cathode2
+Slice1Cathode3
 Text HLabel 5950 2700 2    60   Output ~ 0
+Slice1Cathode2
+Text HLabel 5950 2600 2    60   Output ~ 0
+Slice1Cathode1
+Text HLabel 5950 2500 2    60   Output ~ 0
+Slice2Cathode3
+Text HLabel 5950 2400 2    60   Output ~ 0
+Slice2Cathode2
+Text HLabel 5950 2300 2    60   Output ~ 0
 Slice2Cathode1
 Text HLabel 5950 4800 2    60   Output ~ 0
 Slice3Cathode3
@@ -88,16 +88,16 @@ Anode2
 $Comp
 L SN74LVC1G139DCTR U1
 U 1 1 550AC020
-P 2950 2150
-F 0 "U1" H 2700 2550 60  0000 L CNN
-F 1 "SN74LVC1G139DCTR" H 2700 1750 60  0000 L CNN
-F 2 "sn74lvc1g139dctr:sn74lvc1g139dctr" H 3050 2000 60  0001 C CNN
-F 3 "" H 3050 2000 60  0000 C CNN
-F 4 "Texas Instruments" H 2950 2150 60  0001 C CNN "Manufacturer"
-F 5 "SN74LVC1G139DCTR" H 2950 2150 60  0001 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 2950 2150 60  0001 C CNN "Supplier"
-F 7 "296-18235-1-ND" H 2950 2150 60  0001 C CNN "Supplier Part Number"
-	1    2950 2150
+P 2950 3350
+F 0 "U1" H 2700 3750 60  0000 L CNN
+F 1 "SN74LVC1G139DCTR" H 2700 2950 60  0000 L CNN
+F 2 "sn74lvc1g139dctr:sn74lvc1g139dctr" H 3050 3200 60  0001 C CNN
+F 3 "" H 3050 3200 60  0000 C CNN
+F 4 "Texas Instruments" H 2950 3350 60  0001 C CNN "Manufacturer"
+F 5 "SN74LVC1G139DCTR" H 2950 3350 60  0001 C CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 2950 3350 60  0001 C CNN "Supplier"
+F 7 "296-18235-1-ND" H 2950 3350 60  0001 C CNN "Supplier Part Number"
+	1    2950 3350
 	1    0    0    -1  
 $EndComp
 Text Notes 4750 1050 0    157  ~ 0
@@ -184,8 +184,6 @@ Wire Wire Line
 	1350 4700 2500 4700
 Connection ~ 1350 3400
 Wire Wire Line
-	3400 2100 4000 2100
-Wire Wire Line
 	4000 2100 4000 2300
 Wire Wire Line
 	4000 2300 4450 2300
@@ -194,25 +192,23 @@ Wire Wire Line
 Wire Wire Line
 	3900 2400 3900 2200
 Wire Wire Line
-	3900 2200 3400 2200
+	3900 3400 3400 3400
 Wire Wire Line
-	3400 2300 3800 2300
+	3400 3500 4000 3500
 Wire Wire Line
 	3800 2300 3800 2500
 Wire Wire Line
 	3800 2500 4450 2500
 Wire Wire Line
-	3800 3300 3400 3300
+	3400 2100 4000 2100
 Wire Wire Line
-	3800 2700 3800 3300
+	3800 2600 3800 3300
 Wire Wire Line
-	3900 3400 3400 3400
+	3900 2200 3400 2200
 Wire Wire Line
-	3900 2800 3900 3400
+	3900 2700 3900 3400
 Wire Wire Line
-	4000 2900 4000 3500
-Wire Wire Line
-	4000 3500 3400 3500
+	4000 3500 4000 2800
 Wire Wire Line
 	4450 3100 4350 3100
 Wire Wire Line
@@ -233,17 +229,17 @@ Tie unused inputs\nto a constant voltage
 Text Notes 5700 5250 0    60   ~ 0
 Leave unused ouputs\nunconnected
 Wire Wire Line
-	5450 2300 5950 2300
-Wire Wire Line
-	5450 2400 5950 2400
-Wire Wire Line
-	5450 2500 5950 2500
+	5450 2600 5950 2600
 Wire Wire Line
 	5450 2700 5950 2700
 Wire Wire Line
 	5450 2800 5950 2800
 Wire Wire Line
-	5450 2900 5950 2900
+	5450 2300 5950 2300
+Wire Wire Line
+	5450 2400 5950 2400
+Wire Wire Line
+	5450 2500 5950 2500
 Wire Wire Line
 	5450 4800 5950 4800
 Wire Wire Line
@@ -254,7 +250,7 @@ NoConn ~ 5450 4900
 NoConn ~ 5450 5000
 NoConn ~ 5450 5100
 NoConn ~ 5450 5200
-NoConn ~ 5450 2600
+NoConn ~ 5450 2900
 NoConn ~ 3400 2000
 NoConn ~ 3400 3200
 NoConn ~ 3400 4500
@@ -424,17 +420,17 @@ Wire Wire Line
 	8400 5150 8400 5250
 Text Notes 2750 6950 0    60   ~ 0
 Place decoupling capacitors\nclose to E pins
-Text Label 3550 2100 0    60   ~ 0
-S1Y1
-Text Label 3550 2200 0    60   ~ 0
-S1Y2
-Text Label 3550 2300 0    60   ~ 0
-S1Y3
 Text Label 3550 3300 0    60   ~ 0
-S2Y1
+S1Y1
 Text Label 3550 3400 0    60   ~ 0
-S2Y2
+S1Y2
 Text Label 3550 3500 0    60   ~ 0
+S1Y3
+Text Label 3550 2100 0    60   ~ 0
+S2Y1
+Text Label 3550 2200 0    60   ~ 0
+S2Y2
+Text Label 3550 2300 0    60   ~ 0
 S2Y3
 Text Label 3550 4600 0    60   ~ 0
 S3Y1
@@ -462,18 +458,9 @@ F 7 "296-1368-1-ND" H 4950 2600 60  0001 C CNN "Supplier Part Number"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 2700 3800 2700
-Wire Wire Line
-	4450 2800 3900 2800
-Wire Wire Line
-	4450 2900 4000 2900
-Wire Wire Line
 	4350 3100 4350 5650
 Wire Wire Line
-	4250 2600 4450 2600
-Wire Wire Line
 	4250 4900 4450 4900
-Connection ~ 4250 2600
 Wire Wire Line
 	4250 5000 4450 5000
 Connection ~ 4250 4900
@@ -510,16 +497,16 @@ $EndComp
 $Comp
 L SN74LVC1G139DCTR U2
 U 1 1 550B6026
-P 2950 3350
-F 0 "U2" H 2700 3750 60  0000 L CNN
-F 1 "SN74LVC1G139DCTR" H 2700 2950 60  0000 L CNN
-F 2 "sn74lvc1g139dctr:sn74lvc1g139dctr" H 3050 3200 60  0001 C CNN
-F 3 "" H 3050 3200 60  0000 C CNN
-F 4 "Texas Instruments" H 2950 3350 60  0001 C CNN "Manufacturer"
-F 5 "SN74LVC1G139DCTR" H 2950 3350 60  0001 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 2950 3350 60  0001 C CNN "Supplier"
-F 7 "296-18235-1-ND" H 2950 3350 60  0001 C CNN "Supplier Part Number"
-	1    2950 3350
+P 2950 2150
+F 0 "U2" H 2700 2550 60  0000 L CNN
+F 1 "SN74LVC1G139DCTR" H 2700 1750 60  0000 L CNN
+F 2 "sn74lvc1g139dctr:sn74lvc1g139dctr" H 3050 2000 60  0001 C CNN
+F 3 "" H 3050 2000 60  0000 C CNN
+F 4 "Texas Instruments" H 2950 2150 60  0001 C CNN "Manufacturer"
+F 5 "SN74LVC1G139DCTR" H 2950 2150 60  0001 C CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 2950 2150 60  0001 C CNN "Supplier"
+F 7 "296-18235-1-ND" H 2950 2150 60  0001 C CNN "Supplier Part Number"
+	1    2950 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -616,4 +603,17 @@ F 8 "399-1167-1-ND" H 4400 6900 60  0001 C CNN "Supplier Part Number"
 	1    4400 6900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3800 2600 4450 2600
+Wire Wire Line
+	4450 2700 3900 2700
+Wire Wire Line
+	4000 2800 4450 2800
+Wire Wire Line
+	4250 2900 4450 2900
+Connection ~ 4250 2900
+Wire Wire Line
+	3400 2300 3800 2300
+Wire Wire Line
+	3800 3300 3400 3300
 $EndSCHEMATC

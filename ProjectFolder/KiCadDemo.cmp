@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 3/17/2015 10:01:51 PM
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 3/18/2015 9:57:40 PM
 
 BeginCmp
 TimeStamp = /550BABE4;
@@ -11,14 +11,14 @@ BeginCmp
 TimeStamp = /550B8F41;
 Reference = C2;
 ValeurCmp = 0.1u;
-IdModule  = Capacitors_SMD:C_1206;
+IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5509C10B;
 Reference = C3;
 ValeurCmp = 10u;
-IdModule  = Capacitors_SMD:C_1206;
+IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
@@ -80,6 +80,20 @@ EndCmp
 BeginCmp
 TimeStamp = /550C2EDC;
 Reference = J5;
+ValeurCmp = TSW-103-07-T-S;
+IdModule  = tsw-103-07-t-s:tsw-103-07-t-s;
+EndCmp
+
+BeginCmp
+TimeStamp = /550A6C58;
+Reference = J6;
+ValeurCmp = TSW-103-07-T-S;
+IdModule  = tsw-103-07-t-s:tsw-103-07-t-s;
+EndCmp
+
+BeginCmp
+TimeStamp = /550A939F;
+Reference = J7;
 ValeurCmp = TSW-103-07-T-S;
 IdModule  = tsw-103-07-t-s:tsw-103-07-t-s;
 EndCmp

@@ -1,8 +1,8 @@
-(module tsw-103-07-t-s (layer F.Cu) (tedit 5508D519)
-  (fp_text reference tsw-103-07-t-s (at 0 6.35) (layer F.SilkS) hide
+(module tsw-103-07-t-s (layer F.Cu) (tedit 550A26B1)
+  (fp_text reference J4 (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at -0.2 -4.1) (layer F.SilkS)
+  (fp_text value TSW-103-07-T-S (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -0.9 -1.6) (end 0.9 -1.6) (layer F.SilkS) (width 0.1))

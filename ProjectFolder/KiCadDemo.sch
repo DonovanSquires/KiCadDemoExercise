@@ -67,79 +67,79 @@ $EndComp
 $Comp
 L TSW-103-07-T-S J2
 U 1 1 55078EDE
-P 9200 3250
-F 0 "J2" H 9200 3500 60  0000 L CNN
-F 1 "TSW-103-07-T-S" H 9200 3000 60  0000 L CNN
-F 2 "tsw-103-07-t-s:tsw-103-07-t-s" H 9250 3250 60  0001 C CNN
-F 3 "" H 9250 3250 60  0000 C CNN
-F 4 "Samtec" H 9200 3250 60  0001 C CNN "Manufacturer"
-F 5 "TSW-103-07-T-S" H 9200 3250 60  0001 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 9200 3250 60  0001 C CNN "Supplier"
-F 7 "SAM1035-03-ND" H 9200 3250 60  0001 C CNN "Supplier Part Number"
-	1    9200 3250
+P 8250 3700
+F 0 "J2" H 8250 3950 60  0000 L CNN
+F 1 "TSW-103-07-T-S" H 8250 3450 60  0000 L CNN
+F 2 "tsw-103-07-t-s:tsw-103-07-t-s" H 8300 3700 60  0001 C CNN
+F 3 "" H 8300 3700 60  0000 C CNN
+F 4 "Samtec" H 8250 3700 60  0001 C CNN "Manufacturer"
+F 5 "TSW-103-07-T-S" H 8250 3700 60  0001 C CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 8250 3700 60  0001 C CNN "Supplier"
+F 7 "SAM1035-03-ND" H 8250 3700 60  0001 C CNN "Supplier Part Number"
+	1    8250 3700
 	1    0    0    -1  
 $EndComp
-Text Label 8650 3150 0    60   ~ 0
+Text Label 7700 4350 0    60   ~ 0
 S1C1
 Wire Wire Line
-	8650 3150 9000 3150
-Text Label 8650 3250 0    60   ~ 0
+	7700 4350 8050 4350
+Text Label 7700 4450 0    60   ~ 0
 S1C2
 Wire Wire Line
-	8650 3250 9000 3250
-Text Label 8650 3350 0    60   ~ 0
+	7700 4450 8050 4450
+Text Label 7700 4550 0    60   ~ 0
 S1C3
 Wire Wire Line
-	8650 3350 9000 3350
-Text Label 8650 3900 0    60   ~ 0
+	7700 4550 8050 4550
+Text Label 7700 3600 0    60   ~ 0
 S2C1
 Wire Wire Line
-	8650 3900 9000 3900
-Text Label 8650 4000 0    60   ~ 0
+	7700 3600 8050 3600
+Text Label 7700 3700 0    60   ~ 0
 S2C2
 Wire Wire Line
-	8650 4000 9000 4000
-Text Label 8650 4100 0    60   ~ 0
+	7700 3700 8050 3700
+Text Label 7700 3800 0    60   ~ 0
 S2C3
 Wire Wire Line
-	8650 4100 9000 4100
-Text Label 8650 4650 0    60   ~ 0
+	7700 3800 8050 3800
+Text Label 7700 5100 0    60   ~ 0
 S3C1
 Wire Wire Line
-	8650 4650 9000 4650
-Text Label 8650 4750 0    60   ~ 0
+	7700 5100 8050 5100
+Text Label 7700 5200 0    60   ~ 0
 S3C2
 Wire Wire Line
-	8650 4750 9000 4750
-Text Label 8650 4850 0    60   ~ 0
+	7700 5200 8050 5200
+Text Label 7700 5300 0    60   ~ 0
 S3C3
 Wire Wire Line
-	8650 4850 9000 4850
-Text Label 8650 5400 0    60   ~ 0
+	7700 5300 8050 5300
+Text Label 9450 3600 0    60   ~ 0
 A1
 Wire Wire Line
-	8650 5400 9000 5400
-Text Label 8650 5500 0    60   ~ 0
+	9450 3600 9800 3600
+Text Label 9450 3700 0    60   ~ 0
 A2
 Wire Wire Line
-	8650 5500 9000 5500
-Text Label 8650 5600 0    60   ~ 0
+	9450 3700 9800 3700
+Text Label 9450 3800 0    60   ~ 0
 A3
 Wire Wire Line
-	8650 5600 9000 5600
-Text Label 950  4950 0    60   ~ 0
-S2_EN
-Text Label 2700 5050 2    60   ~ 0
-CA
+	9450 3800 9800 3800
 Text Label 2700 5150 2    60   ~ 0
+S2_EN
+Text Label 950  4950 0    60   ~ 0
+CA
+Text Label 2700 5050 2    60   ~ 0
 CB
-Text Label 2700 4450 2    60   ~ 0
-S3_EN
 Text Label 2700 4750 2    60   ~ 0
+S3_EN
+Text Label 2700 4450 2    60   ~ 0
 AA
-Text Label 2700 4950 2    60   ~ 0
-AB
 Text Label 950  4850 0    60   ~ 0
+AB
+Text Label 2700 4950 2    60   ~ 0
 S1_EN
 Wire Wire Line
 	2200 4450 2700 4450
@@ -475,7 +475,7 @@ U 1 1 550B8F41
 P 2300 6400
 F 0 "C2" H 2350 6500 50  0000 L CNN
 F 1 "0.1u" H 2350 6300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 2338 6250 30  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 2338 6250 30  0001 C CNN
 F 3 "" H 2300 6400 60  0000 C CNN
 F 4 "16V" H 2450 6200 60  0001 C CNN "Voltage"
 F 5 "Kemet" H 2300 6400 60  0001 C CNN "Manufacturer"
@@ -507,7 +507,7 @@ U 1 1 5509C10B
 P 2750 6400
 F 0 "C3" H 2800 6500 50  0000 L CNN
 F 1 "10u" H 2800 6300 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 2788 6250 30  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 2788 6250 30  0001 C CNN
 F 3 "" H 2750 6400 60  0000 C CNN
 F 4 "16V" H 2900 6200 60  0001 C CNN "Voltage"
 F 5 "Murata Electronics North America" H 2750 6400 60  0001 C CNN "Manufacturer"
@@ -520,46 +520,100 @@ $EndComp
 $Comp
 L TSW-103-07-T-S J3
 U 1 1 550C2E47
-P 9200 4000
-F 0 "J3" H 9200 4250 60  0000 L CNN
-F 1 "TSW-103-07-T-S" H 9200 3750 60  0000 L CNN
-F 2 "tsw-103-07-t-s:tsw-103-07-t-s" H 9250 4000 60  0001 C CNN
-F 3 "" H 9250 4000 60  0000 C CNN
-F 4 "Samtec" H 9200 4000 60  0001 C CNN "Manufacturer"
-F 5 "TSW-103-07-T-S" H 9200 4000 60  0001 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 9200 4000 60  0001 C CNN "Supplier"
-F 7 "SAM1035-03-ND" H 9200 4000 60  0001 C CNN "Supplier Part Number"
-	1    9200 4000
+P 8250 4450
+F 0 "J3" H 8250 4700 60  0000 L CNN
+F 1 "TSW-103-07-T-S" H 8250 4200 60  0000 L CNN
+F 2 "tsw-103-07-t-s:tsw-103-07-t-s" H 8300 4450 60  0001 C CNN
+F 3 "" H 8300 4450 60  0000 C CNN
+F 4 "Samtec" H 8250 4450 60  0001 C CNN "Manufacturer"
+F 5 "TSW-103-07-T-S" H 8250 4450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 8250 4450 60  0001 C CNN "Supplier"
+F 7 "SAM1035-03-ND" H 8250 4450 60  0001 C CNN "Supplier Part Number"
+	1    8250 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L TSW-103-07-T-S J4
 U 1 1 550C2E90
-P 9200 4750
-F 0 "J4" H 9200 5000 60  0000 L CNN
-F 1 "TSW-103-07-T-S" H 9200 4500 60  0000 L CNN
-F 2 "tsw-103-07-t-s:tsw-103-07-t-s" H 9250 4750 60  0001 C CNN
-F 3 "" H 9250 4750 60  0000 C CNN
-F 4 "Samtec" H 9200 4750 60  0001 C CNN "Manufacturer"
-F 5 "TSW-103-07-T-S" H 9200 4750 60  0001 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 9200 4750 60  0001 C CNN "Supplier"
-F 7 "SAM1035-03-ND" H 9200 4750 60  0001 C CNN "Supplier Part Number"
-	1    9200 4750
+P 8250 5200
+F 0 "J4" H 8250 5450 60  0000 L CNN
+F 1 "TSW-103-07-T-S" H 8250 4950 60  0000 L CNN
+F 2 "tsw-103-07-t-s:tsw-103-07-t-s" H 8300 5200 60  0001 C CNN
+F 3 "" H 8300 5200 60  0000 C CNN
+F 4 "Samtec" H 8250 5200 60  0001 C CNN "Manufacturer"
+F 5 "TSW-103-07-T-S" H 8250 5200 60  0001 C CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 8250 5200 60  0001 C CNN "Supplier"
+F 7 "SAM1035-03-ND" H 8250 5200 60  0001 C CNN "Supplier Part Number"
+	1    8250 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L TSW-103-07-T-S J5
 U 1 1 550C2EDC
-P 9200 5500
-F 0 "J5" H 9200 5750 60  0000 L CNN
-F 1 "TSW-103-07-T-S" H 9200 5250 60  0000 L CNN
-F 2 "tsw-103-07-t-s:tsw-103-07-t-s" H 9250 5500 60  0001 C CNN
-F 3 "" H 9250 5500 60  0000 C CNN
-F 4 "Samtec" H 9200 5500 60  0001 C CNN "Manufacturer"
-F 5 "TSW-103-07-T-S" H 9200 5500 60  0001 C CNN "Manufacturer Part Number"
-F 6 "Digi-Key" H 9200 5500 60  0001 C CNN "Supplier"
-F 7 "SAM1035-03-ND" H 9200 5500 60  0001 C CNN "Supplier Part Number"
-	1    9200 5500
+P 10000 3700
+F 0 "J5" H 10000 3950 60  0000 L CNN
+F 1 "TSW-103-07-T-S" H 9400 3450 60  0000 L CNN
+F 2 "tsw-103-07-t-s:tsw-103-07-t-s" H 10050 3700 60  0001 C CNN
+F 3 "" H 10050 3700 60  0000 C CNN
+F 4 "Samtec" H 10000 3700 60  0001 C CNN "Manufacturer"
+F 5 "TSW-103-07-T-S" H 10000 3700 60  0001 C CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 10000 3700 60  0001 C CNN "Supplier"
+F 7 "SAM1035-03-ND" H 10000 3700 60  0001 C CNN "Supplier Part Number"
+	1    10000 3700
+	1    0    0    -1  
+$EndComp
+Text Label 9450 4350 0    60   ~ 0
+A1
+Wire Wire Line
+	9450 4350 9800 4350
+Text Label 9450 4450 0    60   ~ 0
+A2
+Wire Wire Line
+	9450 4450 9800 4450
+Text Label 9450 4550 0    60   ~ 0
+A3
+Wire Wire Line
+	9450 4550 9800 4550
+$Comp
+L TSW-103-07-T-S J6
+U 1 1 550A6C58
+P 10000 4450
+F 0 "J6" H 10000 4700 60  0000 L CNN
+F 1 "TSW-103-07-T-S" H 9350 4200 60  0000 L CNN
+F 2 "tsw-103-07-t-s:tsw-103-07-t-s" H 10050 4450 60  0001 C CNN
+F 3 "" H 10050 4450 60  0000 C CNN
+F 4 "Samtec" H 10000 4450 60  0001 C CNN "Manufacturer"
+F 5 "TSW-103-07-T-S" H 10000 4450 60  0001 C CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 10000 4450 60  0001 C CNN "Supplier"
+F 7 "SAM1035-03-ND" H 10000 4450 60  0001 C CNN "Supplier Part Number"
+	1    10000 4450
+	1    0    0    -1  
+$EndComp
+Text Label 9450 5100 0    60   ~ 0
+A1
+Wire Wire Line
+	9450 5100 9800 5100
+Text Label 9450 5200 0    60   ~ 0
+A2
+Wire Wire Line
+	9450 5200 9800 5200
+Text Label 9450 5300 0    60   ~ 0
+A3
+Wire Wire Line
+	9450 5300 9800 5300
+$Comp
+L TSW-103-07-T-S J7
+U 1 1 550A939F
+P 10000 5200
+F 0 "J7" H 10000 5450 60  0000 L CNN
+F 1 "TSW-103-07-T-S" H 9350 4950 60  0000 L CNN
+F 2 "tsw-103-07-t-s:tsw-103-07-t-s" H 10050 5200 60  0001 C CNN
+F 3 "" H 10050 5200 60  0000 C CNN
+F 4 "Samtec" H 10000 5200 60  0001 C CNN "Manufacturer"
+F 5 "TSW-103-07-T-S" H 10000 5200 60  0001 C CNN "Manufacturer Part Number"
+F 6 "Digi-Key" H 10000 5200 60  0001 C CNN "Supplier"
+F 7 "SAM1035-03-ND" H 10000 5200 60  0001 C CNN "Supplier Part Number"
+	1    10000 5200
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

@@ -1,8 +1,8 @@
-(module sn74lvc1g139dctr (layer F.Cu) (tedit 5508D33C)
-  (fp_text reference sn74lvc1g139dctr (at -1.27 5.08) (layer F.SilkS) hide
+(module sn74lvc1g139dctr (layer F.Cu) (tedit 550A2645)
+  (fp_text reference U2 (at 0 0) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at -2.54 -5.08) (layer F.SilkS)
+  (fp_text value SN74LVC1G139DCTR (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -1.15 2.65) (end -0.8 2.65) (layer F.SilkS) (width 0.1))
