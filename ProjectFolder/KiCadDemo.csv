@@ -1,0 +1,10 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"C1,C5,C6,C7,C2";"C_0805";5;"0.1u";;;
+2;"C4";"C_1210";1;"100u";;;
+3;"R1,R2,R3";"R_0805";3;"330";;;
+4;"U1,U3,U6,U2";"sn74lvc1g139dctr";4;"SN74LVC1G139DCTR";;;
+5;"U5,U4";"ULN2003ADR";2;"ULN2003ADR";;;
+6;"J5,J4,J3,J2,J6,J7";"tsw-103-07-t-s";6;"TSW-103-07-T-S";;;
+7;"raspberrypi2_shield";"raspberrypi2_shield";1;"VAL**";;;
+8;"J1";"1992";1;"1992";;;
+9;"C3";"C_0805";1;"10u";;;

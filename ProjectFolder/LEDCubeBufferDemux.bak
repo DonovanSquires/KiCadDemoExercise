@@ -34,6 +34,7 @@ LIBS:1992
 LIBS:sn74lvc1g139dctr
 LIBS:tsw-103-07-t-s
 LIBS:uln2003adr
+LIBS:mounting_hole
 LIBS:KiCadDemo-cache
 EELAYER 25 0
 EELAYER END

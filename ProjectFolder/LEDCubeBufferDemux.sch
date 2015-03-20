@@ -34,6 +34,7 @@ LIBS:1992
 LIBS:sn74lvc1g139dctr
 LIBS:tsw-103-07-t-s
 LIBS:uln2003adr
+LIBS:mounting_hole
 LIBS:KiCadDemo-cache
 EELAYER 25 0
 EELAYER END
@@ -41,7 +42,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 2 2
 Title "Raspberry Pi 3x3x3 LED Cube Shield, Main PCB"
-Date "Tuesday, March 17, 2015"
+Date "Thursday, March 19, 2015"
 Rev "-"
 Comp ""
 Comment1 ""
