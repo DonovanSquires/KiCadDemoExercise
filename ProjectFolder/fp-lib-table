@@ -4,5 +4,4 @@
   (lib (name uln2003adr)(type KiCad)(uri ${KIPRJMOD}/lib/uln2003adr.Pretty)(options "")(descr ""))
   (lib (name tsw-103-07-t-s)(type KiCad)(uri ${KIPRJMOD}/lib/tsw-103-07-t-s.Pretty)(options "")(descr ""))
   (lib (name raspberrypi2_shield)(type KiCad)(uri ${KIPRJMOD}/lib/raspberrypi2_shield.Pretty)(options "")(descr ""))
-  (lib (name mounting_hole)(type KiCad)(uri ${KIPRJMOD}/lib/mounting_hole.Pretty)(options "")(descr ""))
 )

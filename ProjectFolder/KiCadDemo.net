@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source C:\Users\Testing\Documents\KiCadDemo\ProjectFolder\KiCadDemo.sch)
-    (date "3/19/2015 8:00:55 PM")
+    (source C:/Users/Testing/Documents/KiCadDemoExercise/ProjectFolder/KiCadDemo.sch)
+    (date "3/19/2015 11:09:51 PM")
     (tool "Eeschema (2015-01-16 BZR 5376)-product"))
   (components
     (comp (ref J1)
@@ -129,26 +129,6 @@
       (libsource (lib tsw-103-07-t-s) (part TSW-103-07-T-S))
       (sheetpath (names /) (tstamps /))
       (tstamp 550A939F))
-    (comp (ref M1)
-      (value Mounting_Hole)
-      (libsource (lib mounting_hole) (part Mounting_Hole))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 550B74AD))
-    (comp (ref M2)
-      (value Mounting_Hole)
-      (libsource (lib mounting_hole) (part Mounting_Hole))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 550B8E7F))
-    (comp (ref M3)
-      (value Mounting_Hole)
-      (libsource (lib mounting_hole) (part Mounting_Hole))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 550B8ED3))
-    (comp (ref M4)
-      (value Mounting_Hole)
-      (libsource (lib mounting_hole) (part Mounting_Hole))
-      (sheetpath (names /) (tstamps /))
-      (tstamp 550B8F13))
     (comp (ref U1)
       (value SN74LVC1G139DCTR)
       (footprint sn74lvc1g139dctr:sn74lvc1g139dctr)
@@ -288,6 +268,18 @@
       (sheetpath (names "/Raspberry Pi 3x3x3 LED Cube Buffer Demux/") (tstamps /5507FFCC/))
       (tstamp 550B7F0C)))
   (libparts
+    (libpart (lib device) (part C)
+      (description "Condensateur non polarise")
+      (footprints
+        (fp SM*)
+        (fp C?)
+        (fp C1-1))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib device) (part R)
       (description Resistance)
       (footprints
@@ -299,18 +291,6 @@
       (fields
         (field (name Reference) R)
         (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part C)
-      (description "Condensateur non polarise")
-      (footprints
-        (fp SM*)
-        (fp C?)
-        (fp C1-1))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
@@ -363,6 +343,18 @@
         (pin (num 38) (name 38) (type passive))
         (pin (num 39) (name 39) (type passive))
         (pin (num 40) (name 40) (type passive))))
+    (libpart (lib tsw-103-07-t-s) (part TSW-103-07-T-S)
+      (description "CONN HEADER 3POS .100\" SNGL TIN")
+      (docs doc/TSW_TH.PDF)
+      (footprints
+        (fp TSW-103-07-T-S))
+      (fields
+        (field (name Reference) J)
+        (field (name Value) TSW-103-07-T-S))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))))
     (libpart (lib sn74lvc1g139dctr) (part SN74LVC1G139DCTR)
       (description "IC 2TO4 LINE DECODER SM8")
       (docs doc/sn74lvc1g139.pdf)
@@ -380,18 +372,6 @@
         (pin (num 6) (name Y1) (type passive))
         (pin (num 7) (name Y0) (type passive))
         (pin (num 8) (name VCC) (type passive))))
-    (libpart (lib tsw-103-07-t-s) (part TSW-103-07-T-S)
-      (description "CONN HEADER 3POS .100\" SNGL TIN")
-      (docs doc/TSW_TH.PDF)
-      (footprints
-        (fp TSW-103-07-T-S))
-      (fields
-        (field (name Reference) J)
-        (field (name Value) TSW-103-07-T-S))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))))
     (libpart (lib uln2003adr) (part ULN2003ADR)
       (description "TRANS 7NPN DARL 50V 0.5A 16SO")
       (docs doc/uln2003a.pdf)
@@ -416,24 +396,18 @@
         (pin (num 13) (name 4C) (type passive))
         (pin (num 14) (name 3C) (type passive))
         (pin (num 15) (name 2C) (type passive))
-        (pin (num 16) (name 1C) (type passive))))
-    (libpart (lib mounting_hole) (part Mounting_Hole)
-      (fields
-        (field (name Reference) M)
-        (field (name Value) Mounting_Hole))))
+        (pin (num 16) (name 1C) (type passive)))))
   (libraries
     (library (logical device)
       (uri C:\KiCad\share\library\device.lib))
     (library (logical tsw-103-07-t-s)
-      (uri C:\Users\Testing\Documents\KiCadDemo\ProjectFolder\lib\tsw-103-07-t-s.lib))
+      (uri C:\Users\Testing\Documents\KiCadDemoExercise\ProjectFolder\lib\tsw-103-07-t-s.lib))
     (library (logical 1992)
-      (uri C:\Users\Testing\Documents\KiCadDemo\ProjectFolder\lib\1992.lib))
+      (uri C:\Users\Testing\Documents\KiCadDemoExercise\ProjectFolder\lib\1992.lib))
     (library (logical sn74lvc1g139dctr)
-      (uri C:\Users\Testing\Documents\KiCadDemo\ProjectFolder\lib\sn74lvc1g139dctr.lib))
+      (uri C:\Users\Testing\Documents\KiCadDemoExercise\ProjectFolder\lib\sn74lvc1g139dctr.lib))
     (library (logical uln2003adr)
-      (uri C:\Users\Testing\Documents\KiCadDemo\ProjectFolder\lib\uln2003adr.lib))
-    (library (logical mounting_hole)
-      (uri C:\Users\Testing\Documents\KiCadDemo\ProjectFolder\lib\mounting_hole.lib)))
+      (uri C:\Users\Testing\Documents\KiCadDemoExercise\ProjectFolder\lib\uln2003adr.lib)))
   (nets
     (net (code 1) (name "/Raspberry Pi 3x3x3 LED Cube Buffer Demux/Anode1")
       (node (ref R1) (pin 2))

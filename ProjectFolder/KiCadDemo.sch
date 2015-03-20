@@ -34,7 +34,6 @@ LIBS:1992
 LIBS:sn74lvc1g139dctr
 LIBS:tsw-103-07-t-s
 LIBS:uln2003adr
-LIBS:mounting_hole
 LIBS:KiCadDemo-cache
 EELAYER 25 0
 EELAYER END
@@ -617,52 +616,4 @@ F 7 "SAM1035-03-ND" H 10000 5200 60  0001 C CNN "Supplier Part Number"
 	1    10000 5200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mounting_Hole M4
-U 1 1 550B8F13
-P 9800 6300
-F 0 "M4" H 9800 6500 60  0000 C CNN
-F 1 "Mounting_Hole" H 9800 6100 60  0000 C CNN
-F 2 "mounting_hole:mounting_hole_2.75mm_pth" H 9800 6300 60  0001 C CNN
-F 3 "" H 9800 6300 60  0000 C CNN
-	1    9800 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mounting_Hole M3
-U 1 1 550B8ED3
-P 9050 6300
-F 0 "M3" H 9050 6500 60  0000 C CNN
-F 1 "Mounting_Hole" H 9050 6100 60  0000 C CNN
-F 2 "mounting_hole:mounting_hole_2.75mm_pth" H 9050 6300 60  0001 C CNN
-F 3 "" H 9050 6300 60  0000 C CNN
-	1    9050 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mounting_Hole M2
-U 1 1 550B8E7F
-P 8250 6300
-F 0 "M2" H 8250 6500 60  0000 C CNN
-F 1 "Mounting_Hole" H 8250 6100 60  0000 C CNN
-F 2 "mounting_hole:mounting_hole_2.75mm_pth" H 8250 6300 60  0001 C CNN
-F 3 "" H 8250 6300 60  0000 C CNN
-	1    8250 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mounting_Hole M1
-U 1 1 550B74AD
-P 7500 6300
-F 0 "M1" H 7500 6500 60  0000 C CNN
-F 1 "Mounting_Hole" H 7500 6100 60  0000 C CNN
-F 2 "mounting_hole:mounting_hole_2.75mm_pth" H 7500 6300 60  0001 C CNN
-F 3 "" H 7500 6300 60  0000 C CNN
-	1    7500 6300
-	1    0    0    -1  
-$EndComp
-NoConn ~ 7150 6300
-NoConn ~ 7900 6300
-NoConn ~ 8700 6300
-NoConn ~ 9450 6300
 $EndSCHEMATC

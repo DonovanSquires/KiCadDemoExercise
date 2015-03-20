@@ -1,4 +1,4 @@
-update=3/19/2015 10:41:56 PM
+update=3/19/2015 11:09:35 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -24,6 +24,21 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.2
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=print/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
 [eeschema]
 version=1
 LibDir=lib
@@ -63,19 +78,3 @@ LibName32=lib/1992
 LibName33=lib/sn74lvc1g139dctr
 LibName34=lib/tsw-103-07-t-s
 LibName35=lib/uln2003adr
-LibName36=lib/mounting_hole
-[general]
-version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=print/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
